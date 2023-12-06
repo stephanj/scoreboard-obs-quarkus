@@ -1,8 +1,6 @@
 # scoreboard-obs-quarkus
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+This project retrieves every second the latest game info from the RPI basketball scoreboard and dumps it into text files so OBS can include the details in the video stream.
 
 ## Running the application in dev mode
 
