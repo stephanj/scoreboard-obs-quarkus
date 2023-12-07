@@ -1,43 +1,29 @@
 package com.janssen.scoreboard.domain;
 
-import jakarta.json.bind.annotation.JsonbProperty;
-
 public class GameInfo {
 
-    @JsonbProperty("TT")
     Integer timeoutTime;
 
-    @JsonbProperty("A")
     Integer homeTeamScore;
 
-    @JsonbProperty("B")
     Integer visitingTeamScore;
 
-    @JsonbProperty("Q")
     String quarter;
 
-    @JsonbProperty("24")
     Integer twentyFour;
 
-    @JsonbProperty("FH")
     Integer foulsHomeTeam;
 
-    @JsonbProperty("s")
     Integer clockSeconds;
 
-    @JsonbProperty("m")
     Integer clockMinutes;
 
-    @JsonbProperty("T")
     boolean timeoutClockRunning;
 
-    @JsonbProperty("TH")
     Integer timeoutsHomeTeam;
 
-    @JsonbProperty("FA")
     Integer foulsAwayTeam;
 
-    @JsonbProperty("TA")
     Integer timeoutsAwayTeam;
 
     public GameInfo() {}
